@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "min-height-percentages"
   ],
   "css-min-height-percentages": {
     "type": "git",
