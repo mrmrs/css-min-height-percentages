@@ -121,7 +121,7 @@ or download the css on github and include in your project.
 .mn-hi-100 { min-height: 100%; }
 
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .mn-hi-1-ns { min-height: 1%; }
   .mn-hi-2-ns { min-height: 2%; }
   .mn-hi-3-ns { min-height: 3%; }
@@ -224,7 +224,7 @@ or download the css on github and include in your project.
   .mn-hi-100-ns { min-height: 100%; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .mn-hi-1-m { min-height: 1%; }
   .mn-hi-2-m { min-height: 2%; }
   .mn-hi-3-m { min-height: 3%; }
@@ -327,7 +327,7 @@ or download the css on github and include in your project.
   .mn-hi-100-m { min-height: 100%; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .mn-hi-1-l { min-height: 1%; }
   .mn-hi-2-l { min-height: 2%; }
   .mn-hi-3-l { min-height: 3%; }
