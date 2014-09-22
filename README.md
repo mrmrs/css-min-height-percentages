@@ -9,13 +9,18 @@
 *  -l  = large
 
 ## Install
+Grab the css partial from github and include it in your project or alternatively
+you can install it via npm:
 ```
 npm install --save-dev css-min-height-percentages
 ```
-or download the css on github and include in your project.
+View on [npm](https://www.npmjs.org/package/css-min-height-percentages)
+
 
 ## File Size
 
+13K min-height-percentages.css
+11K min-height-percentages.min.css
 
 ## The Code
 ```
