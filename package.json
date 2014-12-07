@@ -1,5 +1,6 @@
 {
   "name": "css-min-height-percentages",
+  "style": "min-height-percentages.css",
   "version": "0.0.4",
   "homepage": "http://github.com/mrmrs/css-min-height-percentages",
   "description": "Css module of single purpose classes for min height percentages",
