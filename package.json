@@ -1,7 +1,7 @@
 {
   "name": "css-min-height-percentages",
   "style": "min-height-percentages.css",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "homepage": "http://github.com/mrmrs/css-min-height-percentages",
   "description": "Css module of single purpose classes for min height percentages",
   "keywords": [
@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.2"
+    "tachyons-cli": "^1.0.4"
   },
   "scripts": {
     "start": "tachyons src/css-min-height-percentages.css > css/css-min-height-percentages.css && tachyons src/css-min-height-percentages.css --minify > css/css-min-height-percentages.min.css && tachyons src/css-min-height-percentages.css --generate-docs --package=../../package.json > readme.md"
