@@ -1,38 +1,44 @@
 {
   "name": "css-min-height-percentages",
-  "style": "min-height-percentages.css",
-  "version": "1.0.6",
-  "homepage": "http://github.com/mrmrs/css-min-height-percentages",
-  "description": "Css module of single purpose classes for min height percentages",
+  "version": "2.0.0",
+  "description": "Functional CSS for min-height-percentages",
+  "style": "dist/min-height-percentages.css",
+  "main": "dist/min-height-percentages.css",
+  "exports": {
+    ".": "./dist/min-height-percentages.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "min-height-percentages"
+    "min-height-percentages",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-min-height-percentages": {
+  "homepage": "https://github.com/mrmrs/css-min-height-percentages",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-min-height-percentages.git"
+    "url": "https://github.com/mrmrs/css-min-height-percentages.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-min-height-percentages/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-min-height-percentages/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
